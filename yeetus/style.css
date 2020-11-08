@@ -1,0 +1,58 @@
+body {
+	background-image: url("rainbow.gif");
+    background-color: #ff00ff;
+	text-align: center;
+}
+#top {
+	font: 48;
+	font-family: "Impact";
+}
+h1 {
+    color: #ffff00;
+	margin: 50px;
+}
+
+p {
+	font-family: "Comic Sans MS";
+    color: #00ffff;
+}
+#p01 {
+	font-family: "Courier New";
+}
+#main {
+	width: 1000px;
+	height: 600px;
+	background: #ffab19;
+}
+.image {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 500px;
+	height: 500px
+    -webkit-animation:spin 1s linear infinite;
+    -moz-animation:spin 1s linear infinite;
+    animation:spin 1s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.custom {
+  cursor: url('yeetus\dog.png'), auto;
+}
+#pnew {
+	margin-left: 480px;
+}
+#ganger {
+	width: 500px;
+	height: 80px;
+	border-style: solid;
+	border-width: 10px 10px 10px 10px;
+	border-color: #ff0000;
+}
+#refernaces {
+	color: fuchsia;
+font-size: 60px;
+font-family: "Impact";
+}
